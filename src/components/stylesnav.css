@@ -1,0 +1,23 @@
+.nav{
+    height:7%;
+    font-size: 40px;
+    display: flex;
+    border-bottom: 2px solid rgb(45, 45, 47);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    font-size: 35px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.carlogo {
+    position: absolute; /* This positions the image relative to its nearest containing parent element */
+    
+    left: 5%; /* Set the left position to 0, which aligns it to the left edge */
+    width: 200px;
+    height: 150px;
+    
+  }

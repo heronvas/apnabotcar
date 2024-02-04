@@ -14,6 +14,15 @@ const Chatbot = ({visible,close}) => {
   const [loading, setLoading] = useState(false); // Overall loading state
   const messageref = useRef(null);
  
+  const resp =  axios.post( 
+    'https://cardekh.azurewebsites.net/website',
+    {
+      phone_no: "8493993",
+      message: "hi",
+    }
+    );
+
+    console.log(resp);
   
   const generateRandomNumber = () => {
     const randomNumber = Math.floor(1000000000 + Math.random() * 9000000000);
